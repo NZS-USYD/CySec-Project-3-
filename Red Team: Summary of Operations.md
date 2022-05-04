@@ -164,8 +164,24 @@ It is eveident from Fig. 15 that **steven** has permision to excute _Python_ scr
 
 **Flag 1:**
 
+<img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Flags/Flag1.PNG" width="500" height="400">
+  
+  Fig. 16: Flag 1 captured.
+
 **Flag 2:**
+
+<img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Flags/Flag%202.PNG" width="500" height="400">
+  
+  Fig. 17: Flag 2 captured.
 
 **Flag 3:**
 
+<img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Flags/Flag%203.1.PNG" width="500" height="400">
+  
+  Fig. 18: Flag 3 captured.
+
 **Flag 4:**
+
+<img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Flags/Flag%204.PNG" width="500" height="400">
+  
+  Fig. 19: Flag 4 captured.
