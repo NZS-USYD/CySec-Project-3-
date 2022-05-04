@@ -32,7 +32,7 @@ Nmap scan results for each machine reveal the below services and OS details:
   
   Fig. 4: Detailed information gathering regarding `192.168.1.110/24` (ports, services and vulnerabilities).
   
- Table 2: Reconnaissance findings of the target `192.168.1.110`
+ Table 1: reconnaissance findings of the target `192.168.1.110`
   
 | Open Ports | Services                         |
 |------------|----------------------------------|
