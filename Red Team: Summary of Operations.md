@@ -136,4 +136,5 @@ In the next step, I exported those hashes to a text file named `wp_hashes1.txt`.
   
   Fig. 13: Cracking **steven**'s hashed passwords.
   
+  
    
