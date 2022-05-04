@@ -158,5 +158,5 @@ Since SSH is successful, the next step would be to perform privilege escalation.
   
   Fig. 15: Leveraging a _Python_ permission, the user **steven** escaletes its privilege to `root`.
 
-It is eveident from Fig. 15 that **steven** has permision to excute _Python_ scripts which was revealed by the execution of 'sudo -l' command. In the end, running  a simple _Python_ script as given by the command `sudo python -c 'import pty;pty.spawn("/bin/bash")'` was enough to gain a `root` shell.
+It is eveident from Fig. 15 that **steven** has permision to excute _Python_ scripts which was revealed by the execution of `sudo -l` command. In the end, running  a simple _Python_ script as given by the command `sudo python -c 'import pty;pty.spawn("/bin/bash")'` was enough to gain a `root` shell.
    
