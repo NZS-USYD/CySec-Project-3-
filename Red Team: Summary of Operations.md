@@ -136,5 +136,14 @@ In the next step, I exported those hashes to a text file named `wp_hashes1.txt`.
   
   Fig. 13: Cracking **steven**'s hashed passwords.
   
+In the next step, I will utilise this newly cracked password to SSH into **steven**'s account.
+- Commands: 
+  - `$ ssh steven@192.168.1.110`
+
+- Output: 
+
+  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2017%20SSH%20into%20steven.PNG" width="500" height="75">
+  
+  Fig. 14: SSH into **steven**'s account.
   
    
