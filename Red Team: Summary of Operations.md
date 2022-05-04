@@ -62,7 +62,7 @@ _Nikto_ lists a number of vulnerabilities in `192.168.1.110`.
   - the target is vulnerable to minor information disclousure vulnerability (OSVDB-3092)
   - the target is providing directory listing, i.e., which may allow an attacker to read arbitrary files which is akin to directory traversal attack. 
 
-Based on these preliminary finding we will use another tool (_WPScan_) to get more information.
+Based on these preliminary finding I will use another tool (_WPScan_) to get more information.
 - Command: `$ wpscan --url http://192.168.1.110/wordpress --enumerate u`
 - Output: 
 
@@ -75,7 +75,9 @@ Based on these preliminary finding we will use another tool (_WPScan_) to get mo
   
   Fig. 7: _WPScan_ revealing information about possible vulnerabilities.
   
-  _WPScan_ reveals that:
+  _WPScan_ reveals:
+  - user identification. Two users are identified as **steven** and **michael**.  
+  - user enumeration, i.e., brute-forcing user password is possible.
   
 
   
