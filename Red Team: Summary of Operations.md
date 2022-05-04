@@ -91,7 +91,7 @@ Before brute-forcing, it was possible to guess **michael's** password. This allo
   
   Fig. 8: Attempt of SSH into `192.168.1.110` as **michael** is successful.
   
-Now using previously gained knowledge, investigate the `/var/www/html/wordpress` directory for possible weak links in the wordpress webserver.
+Now using previously gained knowledge, investigate the `/var/www/html/wordpress` directory for possible weak links in the wordpress webserver. The command `ls -l` lists all the files available in the `/var/www/html/wordpress` directory. However, `wordpress.config` seems to be point of interest.
 
   
   
