@@ -81,8 +81,9 @@ Based on these preliminary finding I will use another tool (_WPScan_) to get mor
 
 Next, I will combine _Nmap_ findings with _WPScan_ findings to SSH to the wordpress webserver(`192.168.1.110`). Before doing so, I will run a brute-force against **steven** and **michael**.
   
-  ### Exploitation
-  
+### Exploitation
+ 
+Before brute-forcing, it was possible to guess **michael's** password. This allowed me to SSH to `192.168.1.110` as **michael**  
 
   
   
