@@ -128,10 +128,12 @@ In the next step, I exported those hashes to a text file named `wp_hashes.txt`. 
 
 - Output: 
 
-  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2015%20retrieved%20hashes.PNG" width="500" height="100">
+  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2015%20retrieved%20hashes.PNG" width="500" height="75">
   
-  Fig. 12: exporting hashed passwords.
+  Fig. 12: Exporting hashed passwords.
 
-
+  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2016%20Cracking%20hashed%20password%20with%20John%20the%20Ripper.PNG" width="500" height="350">
+  
+  Fig. 13: Exporting hashed passwords.
   
    
