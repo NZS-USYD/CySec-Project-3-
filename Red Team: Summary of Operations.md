@@ -11,4 +11,5 @@ Nmap scan results for each machine reveal the below services and OS details:
 - Output: 
   
   <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%201.%20NMAP%20scan-Discovery.PNG" width="500" height="500">
+  
   Fig. 1: Network mapping with NMAP.
