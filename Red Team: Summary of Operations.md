@@ -91,8 +91,15 @@ Before brute-forcing, it was possible to guess **michael's** password. This allo
   
   Fig. 8: Attempt of SSH into `192.168.1.110` as **michael** is successful.
   
-Now using previously gained knowledge, investigate the `/var/www/html/wordpress` directory for possible weak links in the wordpress webserver. The command `ls -l` lists all the files available in the `/var/www/html/wordpress` directory. However, `wordpress.config` seems to be point of interest.
+Now using previously gained knowledge, investigate the `/var/www/html/wordpress` directory for possible weak links in the wordpress webserver. The command `ls -l` lists all the files available in the `/var/www/html/wordpress` directory. However, `wp-config.php` seems to be point of interest. Investigation of `wp-config.php` reveals an existance of MySQL database, where the username is **root** and password is **R@v3nSecurity** as shown in Fig. 9. 
 
+- Command: `$ cat /var/www/html/wordpress/wp-config.php`
+- Output: 
+
+  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2011%20Finding%20SQL%20password.PNG" width="500" height="400">
+  
+  Fig. 9: Attempt of SSH into `192.168.1.110` as **michael** is successful.
+  
   
   
    
