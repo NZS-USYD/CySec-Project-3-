@@ -42,3 +42,8 @@ Nmap scan results for each machine reveal the below services and OS details:
 | 139        | netbios-ssn Samba smbd 3.X - 4.X |
 | 445        | netbios-ssn Samba smbd 3.X - 4.X |
 
+### Critical Vulnerabilities
+
+We decided to use two scanners for finding vulnerability. They are:
+- Nikto (an open source vulnerability scanner)
+- WPScan (a balackbox security scanner)
