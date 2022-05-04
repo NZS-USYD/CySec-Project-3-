@@ -29,6 +29,16 @@ Nmap scan results for each machine reveal the below services and OS details:
   Fig. 3: Detailed information gathering regarding `192.168.1.110/24` (ports, services and vulnerabilities).
   
     <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%204.%20NMAP%20scan-%20Port%20and%20service%20Discovery%20Of%20Target%201(192.168.1.110).PNG" width="500" height="600">
+    
+    |              Stage | Direct Products | ATP Yields |
+| -----------------: | --------------: | ---------: |
+|         Glycolysis |          2 ATP              ||
+| ^^                 |          2 NADH |   3--5 ATP |
+| Pyruvaye oxidation |          2 NADH |      5 ATP |
+|  Citric acid cycle |          2 ATP              ||
+| ^^                 |          6 NADH |     15 ATP |
+| ^^                 |          2 FADH |      3 ATP |
+|                               30--32 ATP        |||
   
   Fig. 4: Detailed information gathering regarding `192.168.1.110/24` (ports, services and vulnerabilities).
   
