@@ -59,7 +59,16 @@ Nikto lists a number of vulnerabilities in `192.168.1.110`.
   - the target is vulnerable to XSS.
   - the target is running Apache webserver.
   - the target is vulnerable to minor information disclousure vulnerability (OSVDB-3092)
-  - the target is providing directory listing, i.e., which may allow an attacker to read arbitrary files which is akin to directory traversal attack.  
+  - the target is providing directory listing, i.e., which may allow an attacker to read arbitrary files which is akin to directory traversal attack. 
+
+Based on these preliminary finding we will use another tool (WPScan) to get more information.
+- Command: `$ wpscan --url http://192.168.1.110/wordpress --enumerate u`
+- Output: 
+  
+  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%206%20WPscan.PNG" width="500" height="300">
+  
+  Fig. 6: WPScan revealing information about possible vulnerabilities.
+  WPScan reveals that:
   
 
   
