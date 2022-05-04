@@ -79,7 +79,7 @@ Based on these preliminary finding I will use another tool (_WPScan_) to get mor
   - user identification. Two users are identified as **steven** and **michael**.  
   - user enumeration, i.e., brute-forcing user password is possible.
 
-Next, I will combine _Nmap_ findings with _WPScan_ findings to SSH to the wordpress webserver(`192.168.1.110`). Before doing so, i will run a brute-force against **steven** or **michael**.
+Next, I will combine _Nmap_ findings with _WPScan_ findings to SSH to the wordpress webserver(`192.168.1.110`). Before doing so, I will run a brute-force against **steven** and **michael**.
   
   
 
