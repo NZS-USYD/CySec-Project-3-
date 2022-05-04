@@ -114,7 +114,7 @@ In the next step, I will login to the MySQL database to further investigate.
   
   Fig. 10: logging to MySQL database.
   
-  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2014%20Finding%20WP%20Hashes.PNG" width="500" height="500">
+  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2014%20Finding%20WP%20Hashes.PNG" width="500" height="400">
   
   Fig. 11: Users' hashes located in the MySQL database.
  
@@ -132,7 +132,7 @@ In the next step, I exported those hashes to a text file named `wp_hashes1.txt`.
   
   Fig. 12: Exporting hashed passwords.
 
-  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2016%20Cracking%20hashed%20password%20with%20John%20the%20Ripper.PNG" width="500" height="450">
+  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2016%20Cracking%20hashed%20password%20with%20John%20the%20Ripper.PNG" width="500" height="400">
   
   Fig. 13: Cracking **steven**'s hashed passwords.
   
