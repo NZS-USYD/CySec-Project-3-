@@ -87,7 +87,7 @@ Before brute-forcing, it was possible to guess **michael's** password. This allo
 
 <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%209%20SSH2.PNG" width="500" height="400">
   
-Fig. 8: Attempt of SSH is successful.
+Fig. 8: Attempt of SSH into `192.168.1.110` as **michael** is successful.
 
   
   
