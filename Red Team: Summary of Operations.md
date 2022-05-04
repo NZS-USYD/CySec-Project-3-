@@ -145,5 +145,18 @@ In the next step, I will utilise this newly cracked password to SSH into **steve
   <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2017%20SSH%20into%20steven.PNG" width="500" height="250">
   
   Fig. 14: SSH into **steven**'s account.
+
+Since SSH is successful, the next step would be to perform privilege escalation. In this step, I will utilize a _Python_ script. 
+
+- Commands: 
+  - `$ ssh steven@192.168.1.110`
+
+- Output: 
+
+  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2018.%20Performing%20Privilege%20Escalation.PNG" width="500" height="350">
   
+  Fig. 15:.
+
+
+
    
