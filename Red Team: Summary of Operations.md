@@ -106,11 +106,17 @@ In the next step, I will login to the MySQL database to further investigate.
   - `$ mysql -u root -p`
   - `$ show databases;`
   - `$ use wordpress;`
+  - `$ show tables;`
+  - `$ SELECT * FROM wp_users;`
 - Output: 
 
   <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2013%20Finding%20SQL%20databases.PNG" width="500" height="300">
   
   Fig. 10: logging to MySQL database.
+  
+  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2014%20Finding%20WP%20Hashes.PNG" width="500" height="300">
+  
+  Fig. 11: Users' hashes located in the MySQL database.
  
   
    
