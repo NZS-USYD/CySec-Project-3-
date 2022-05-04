@@ -134,6 +134,6 @@ In the next step, I exported those hashes to a text file named `wp_hashes.txt`. 
 
   <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2016%20Cracking%20hashed%20password%20with%20John%20the%20Ripper.PNG" width="500" height="350">
   
-  Fig. 13: Exporting hashed passwords.
+  Fig. 13: Cracking **steven**'s hashed passwords.
   
    
