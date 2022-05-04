@@ -70,7 +70,7 @@ Based on these preliminary finding we will use another tool (WPScan) to get more
   
   Fig. 6: WPScan revealing information about possible vulnerabilities.
   
-  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%206%20WPscan.PNG" width="500" height="300">
+  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%207%20WPscan2.PNG" width="500" height="300">
   
   Fig. 7: WPScan revealing information about possible vulnerabilities.
   
