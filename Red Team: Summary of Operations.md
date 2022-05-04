@@ -100,6 +100,14 @@ Now using previously gained knowledge, investigate the `/var/www/html/wordpress`
   
   Fig. 9: Extracting information relating to MySQL.
   
+In the next step, I will login to the MySQL database to further investigate.
+
+- Command: `$ mysql -u root -p`
+- Output: 
+
+  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2013%20Finding%20SQL%20databases.PNG" width="500" height="400">
   
+  Fig. 10: Extracting information relating to MySQL.
+ 
   
    
