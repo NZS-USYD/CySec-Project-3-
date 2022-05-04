@@ -142,7 +142,7 @@ In the next step, I will utilise this newly cracked password to SSH into **steve
 
 - Output: 
 
-  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2017%20SSH%20into%20steven.PNG" width="500" height="75">
+  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2017%20SSH%20into%20steven.PNG" width="500" height="250">
   
   Fig. 14: SSH into **steven**'s account.
   
