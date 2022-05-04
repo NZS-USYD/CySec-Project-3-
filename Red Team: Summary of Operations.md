@@ -118,6 +118,8 @@ In the next step, I will login to the MySQL database to further investigate.
   
   Fig. 11: Users' hashes located in the MySQL database.
  
-`show tables` command provides a detailed output regarding stored tables in the `wordpress` database. However, `wp_users` is investigated for possible user information apart from the username. Fig. 11 shows that there are two hashed passwords registered in the database. In the next step, I exported those hashes to text file named `wp_hashes.txt`. This will allow me crack the hash for the remaining user **steven**.
+`show tables` command provides a detailed output regarding stored tables in the `wordpress` database. However, `wp_users` is investigated for possible user information apart from the username. Fig. 11 shows that there are two hashed passwords registered in the database. 
+
+In the next step, I exported those hashes to a text file named `wp_hashes.txt`. This will allow me to crack the hash for the remaining user **steven**.
   
    
