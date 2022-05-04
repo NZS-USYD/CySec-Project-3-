@@ -114,13 +114,13 @@ In the next step, I will login to the MySQL database to further investigate.
   
   Fig. 10: logging to MySQL database.
   
-  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2014%20Finding%20WP%20Hashes.PNG" width="500" height="350">
+  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2014%20Finding%20WP%20Hashes.PNG" width="500" height="500">
   
   Fig. 11: Users' hashes located in the MySQL database.
  
 `show tables` command provides a detailed output regarding stored tables in the `wordpress` database. However, `wp_users` is investigated for possible user information apart from the username. Fig. 11 shows that there are two hashed passwords registered in the database. 
 
-In the next step, I exported those hashes to a text file named `wp_hashes.txt`. This will allow me to crack the hash for the remaining user **steven**.
+In the next step, I exported those hashes to a text file named `wp_hashes1.txt`. This will allow me to crack the hashed password for the remaining user **steven** as shown in Fig. 13.
 - Commands: 
   - `$ nano wp_hashes1.txt`
   - `$ cat wp_hashes1.txt`
@@ -132,7 +132,7 @@ In the next step, I exported those hashes to a text file named `wp_hashes.txt`. 
   
   Fig. 12: Exporting hashed passwords.
 
-  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2016%20Cracking%20hashed%20password%20with%20John%20the%20Ripper.PNG" width="500" height="350">
+  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2016%20Cracking%20hashed%20password%20with%20John%20the%20Ripper.PNG" width="500" height="450">
   
   Fig. 13: Cracking **steven**'s hashed passwords.
   
