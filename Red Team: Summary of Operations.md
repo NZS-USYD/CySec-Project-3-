@@ -39,4 +39,14 @@ Nmap scan results for each machine reveal the below services and OS details:
 | ^^            | 111        | rpcbind                          |
 | ^^            | 139        | netbios-ssn Samba smbd 3.X - 4.X |
 | ^^            | 445        | netbios-ssn Samba smbd 3.X - 4.X |
+
+| :        Fruits \|\| Food       : |||
+| :--------- | :-------- | :--------  |
+| Apple      | : Apple : | Apple      \
+| Banana     |   Banana  | Banana     \
+| Orange     |   Orange  | Orange     |
+| :   Rowspan is 4    : || How's it?  |
+|^^    A. Peach         ||   1. Fine :|
+|^^    B. Orange        ||^^ 2. Bad   |
+|^^    C. Banana        ||  It's OK!  |
   
