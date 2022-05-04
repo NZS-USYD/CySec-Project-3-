@@ -102,8 +102,10 @@ Now using previously gained knowledge, investigate the `/var/www/html/wordpress`
   
 In the next step, I will login to the MySQL database to further investigate.
 
-- Command: 
+- Commands: 
   - `$ mysql -u root -p`
+  - `$ show databases;`
+  - `$ use wordpress;`
 - Output: 
 
   <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2013%20Finding%20SQL%20databases.PNG" width="500" height="300">
