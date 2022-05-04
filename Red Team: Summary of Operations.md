@@ -153,7 +153,7 @@ Since SSH is successful, the next step would be to perform privilege escalation.
   - `$ sudo python -c 'import pty;pty.spawn("/bin/bash")'`
 
 - Output: 
-<img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2018.%20Performing%20Privilege%20Escalation.PNG" width="500" height="350">
+  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2018.%20Performing%20Privilege%20Escalation.PNG" width="500" height="400">
   
   Fig. 15: Leveraging a _Python_ permission, the user **steven** escaletes its privilege to `root`.
 
