@@ -52,7 +52,11 @@ Nikto lists a number of vulnerabilities in `192.168.1.110`.
 - Command: `$ nikto -h 192.168.1.110`
 - Output: 
   
-  ![Fig. 5: Nikto revealing information about possible vulnerabilities.](https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%205%20Nikto%20scan.PNG)
+  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%205%20Nikto%20scan.PNG" width="500" height="300">
+  
+  Fig. 5: Nikto revealing information about possible vulnerabilities.
+  
+
   
   
    
