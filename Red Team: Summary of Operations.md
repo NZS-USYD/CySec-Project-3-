@@ -44,6 +44,14 @@ Nmap scan results for each machine reveal the below services and OS details:
 
 ### Critical Vulnerabilities
 
-We decided to use two scanners for finding vulnerability. They are:
+We decided to use two scanners for finding vulnerability in target `192.168.1.110/24`. They are:
 - Nikto (an open source vulnerability scanner)
 - WPScan (a balackbox security scanner)
+
+Nikto lists a number of vulnerabilities in `192.168.1.110`.
+- Command: `$ nikto -h 192.168.1.110`
+- Output: 
+  
+  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%205%20Nikto%20scan.PNG" width="500" height="600">
+  
+  Fig. 5: Nikto revealing information about possible vulnerabilities. 
