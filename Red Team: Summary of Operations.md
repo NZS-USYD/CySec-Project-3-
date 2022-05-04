@@ -79,6 +79,7 @@ Based on these preliminary finding I will use another tool (_WPScan_) to get mor
   - user identification. Two users are identified as **steven** and **michael**.  
   - user enumeration, i.e., brute-forcing user password is possible.
   
+  
 
   
   
