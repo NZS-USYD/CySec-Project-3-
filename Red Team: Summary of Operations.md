@@ -85,9 +85,9 @@ Next, I will combine _Nmap_ findings with _WPScan_ findings to SSH to the wordpr
  
 Before brute-forcing, it was possible to guess **michael's** password. This allowed me to SSH to `192.168.1.110` as **michael** as shown in Fig. 8.
 
-<img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%209%20SSH2.PNG" width="500" height="500">
+<img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%209%20SSH2.PNG" width="500" height="400">
   
-  Fig. 8: Attempt of SSH is successful.
+Fig. 8: Attempt of SSH is successful.
 
   
   
