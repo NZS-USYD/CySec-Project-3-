@@ -32,3 +32,11 @@ Nmap scan results for each machine reveal the below services and OS details:
   
   Fig. 4: Detailed information gathering regarding `192.168.1.110/24` (ports, services and vulnerabilities).
   
+  | Target 1 IP   | Open Ports | Services                         |
+|---------------|------------|----------------------------------|
+| 192.168.1.110 | 22         | SSH                              |
+| ^^            | 80         | HTTP                             |
+| ^^            | 111        | rpcbind                          |
+| ^^            | 139        | netbios-ssn Samba smbd 3.X - 4.X |
+| ^^            | 445        | netbios-ssn Samba smbd 3.X - 4.X |
+  
