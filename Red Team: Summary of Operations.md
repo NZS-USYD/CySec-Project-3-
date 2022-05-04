@@ -55,7 +55,6 @@ Nikto lists a number of vulnerabilities in `192.168.1.110`.
   <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%205%20Nikto%20scan.PNG" width="500" height="300">
   
   Fig. 5: Nikto revealing information about possible vulnerabilities.
-  
   Nikto reveals that:
   - the target is vulnerable to XSS.
   - the target is running Apache webserver.
@@ -65,8 +64,13 @@ Nikto lists a number of vulnerabilities in `192.168.1.110`.
 Based on these preliminary finding we will use another tool (WPScan) to get more information.
 - Command: `$ wpscan --url http://192.168.1.110/wordpress --enumerate u`
 - Output: 
+
+ 
+  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%206%20WPscan.PNG" width="500" height="300">
   
-  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%207%20WPscan2.PNG" width="500" height="300">
+  Fig. 6: WPScan revealing information about possible vulnerabilities.
+  
+  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%206%20WPscan.PNG" width="500" height="300">
   
   Fig. 7: WPScan revealing information about possible vulnerabilities.
   
