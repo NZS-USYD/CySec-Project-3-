@@ -121,5 +121,17 @@ In the next step, I will login to the MySQL database to further investigate.
 `show tables` command provides a detailed output regarding stored tables in the `wordpress` database. However, `wp_users` is investigated for possible user information apart from the username. Fig. 11 shows that there are two hashed passwords registered in the database. 
 
 In the next step, I exported those hashes to a text file named `wp_hashes.txt`. This will allow me to crack the hash for the remaining user **steven**.
+- Commands: 
+  - `$ nano wp_hashes1.txt`
+  - `$ cat wp_hashes1.txt`
+  - `$ john wp_hashes1.txt`
+
+- Output: 
+
+  <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%2015%20retrieved%20hashes.PNG" width="500" height="100">
+  
+  Fig. 12: exporting hashed passwords.
+
+
   
    
