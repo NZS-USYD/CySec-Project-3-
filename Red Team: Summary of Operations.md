@@ -45,17 +45,17 @@ Nmap scan results for each machine reveal the below services and OS details:
 ### Critical Vulnerabilities
 
 We decided to use two scanners for finding vulnerability in target `192.168.1.110/24`. They are:
-- Nikto (an open source vulnerability scanner)
-- WPScan (a balackbox security scanner)
+- `Nikto` (an open source vulnerability scanner)
+- `WPScan` (a balackbox security scanner)
 
-Nikto lists a number of vulnerabilities in `192.168.1.110`.
+`Nikto` lists a number of vulnerabilities in `192.168.1.110`.
 - Command: `$ nikto -h 192.168.1.110`
 - Output: 
   
   <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%205%20Nikto%20scan.PNG" width="500" height="300">
   
-  Fig. 5: Nikto revealing information about possible vulnerabilities.
-  Nikto reveals that:
+  Fig. 5: `Nikto` revealing information about possible vulnerabilities.
+  `Nikto` reveals that:
   - the target is vulnerable to XSS.
   - the target is running Apache webserver.
   - the target is vulnerable to minor information disclousure vulnerability (OSVDB-3092)
@@ -68,13 +68,13 @@ Based on these preliminary finding we will use another tool (WPScan) to get more
  
   <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%206%20WPscan.PNG" width="500" height="300">
   
-  Fig. 6: WPScan revealing information about possible vulnerabilities.
+  Fig. 6: `WPScan` revealing information about possible vulnerabilities.
   
   <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%207%20WPscan2.PNG" width="500" height="300">
   
-  Fig. 7: WPScan revealing information about possible vulnerabilities.
+  Fig. 7: `WPScan` revealing information about possible vulnerabilities.
   
-  WPScan reveals that:
+  `WPScan` reveals that:
   
 
   
