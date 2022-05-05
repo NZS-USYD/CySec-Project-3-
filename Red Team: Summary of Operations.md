@@ -17,7 +17,7 @@ _Nmap_ scan results for each machine reveal the below services and OS details:
  From the scan, we are able to identify the target VM defined by the IP `192.168.1.110/24`.
  In order to find the detailed information and services related to port the following comad was used:
  
-- Command: `$ nmap -T4 -A -v 192.168.1.110 |cat scan_target1.txt`
+- Command: `$ nmap -T4 -A -v 192.168.1.110 |cat >> scan_target1.txt`
 - Output: 
   
   <img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Red%20Team%20Operations/Fig.%202.%20NMAP%20scan-%20Port%20Discovery%20Of%20Target%201(192.168.1.110).png" width="500" height="600">
