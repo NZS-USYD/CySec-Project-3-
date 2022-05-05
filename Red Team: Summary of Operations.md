@@ -176,7 +176,7 @@ It is eveident from Fig. 15 that **steven** has permision to excute _Python_ scr
 
 **Flag 3:**
 
-<img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Flags/Flag%203.1.PNG" width="500" height="400">
+<img src="https://github.com/NZS-USYD/CySec-Project-3-/blob/main/Flags/Flag%203.2.PNG" width="500" height="400">
   
   Fig. 18: Flag 3 captured.
 
